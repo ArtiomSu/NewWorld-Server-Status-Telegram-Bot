@@ -1,0 +1,16 @@
+{
+  "name": "NewWorldTelegramBot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "./bot.sh",
+    "track": "node keepTrack.js"
+  },
+  "dependencies": {
+    "cloudscraper": "^4.6.0",
+    "cheerio": "^1.0.0-rc.10",
+    "node-telegram-bot-api": "^0.54.0",
+    "request": "^2.88.2",
+    "dotenv": "^10.0.0"
+  }
+}
