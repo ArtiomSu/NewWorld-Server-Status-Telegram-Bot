@@ -67,7 +67,8 @@ get_data = (options, current_chat, bot, keep_track, keep_track_object) => {
                             if(keep_track){
                                 if(keep_track_object.status !== servers[region][server].status){
                                     keep_track_object.status = servers[region][server].status;
-                                    outString = "<b>Status for "+keep_track_object.name+" Changed</b>";
+                                    outString = Constants.NOTIFY_USERS + "<pre>\n</pre>";
+                                    outString += "<b>Status for "+keep_track_object.name+" Changed</b>";
                                     keep_track_object.notify = true;
                                     outString += "<pre>\n";
                                     outString += servers[region][server].name+" ";

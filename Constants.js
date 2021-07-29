@@ -13,5 +13,6 @@ module.exports = {
         "<b>ap southeast</b> <pre>to get whatever that is\n\n</pre>"+
         "or type sever name instead to show matching servers",
     SERVER_REGIONS: ['US EAST', 'EU CENTRAL', 'SA EAST', 'AP Southeast', 'US West'],
+    NOTIFY_USERS: process.env.NOTIFY_USERS
 }
 
